@@ -2,4 +2,30 @@
     --mint: rgb(0, 255, 179);
     --dark: rgb(32, 32, 32);
     --gray: rgb(77, 77, 77);
+    --white: #fff;
+}
+body{
+background: linear-gradient(180deg, var(--dark), var(--gray));
+}
+
+.heading{
+background-color: var(--dark);
+}
+
+.name{
+    background-color: var(--mint);
+}
+
+.directory{
+    color: var(--white);
+    float: right;
+}
+
+.directory ul{
+    list-style-type: none;
+    display: inline-flex;
+}
+
+.directory ul li{
+    margin-right:20px;
 }
