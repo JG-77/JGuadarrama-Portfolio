@@ -60,3 +60,20 @@ img{
     width:75%;
     display: inline-block;
 }
+.Projects{
+    background-color: var(--gray);
+    padding:10px;
+    margin:15px;
+}
+
+.About-Me{
+    background-color: var(--gray);
+    padding:10px;
+    margin:15px;
+}
+
+.Contact{
+    background-color: var(--gray);
+    padding:10px;
+    margin:15px;
+}
