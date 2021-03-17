@@ -6,6 +6,8 @@
 }
 body{
 background: linear-gradient(180deg, var(--dark), var(--gray));
+
+background-attachment: fixed;
 }
 
 .heading{
@@ -14,6 +16,8 @@ background-color: var(--dark);
 
 .name{
     background-color: var(--mint);
+    font-size: 50px;
+    display: inline;
 }
 
 .directory{
