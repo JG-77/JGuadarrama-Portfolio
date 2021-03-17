@@ -12,6 +12,7 @@ font-family: Arial, Helvetica, sans-serif;
 
 .heading{
 background-color: var(--dark);
+padding: 15px;
 }
 
 .name{
@@ -38,9 +39,9 @@ background-color: var(--dark);
 .img{
     background-image: url(https://media.istockphoto.com/photos/programming-source-code-abstract-background-picture-id1047259374?k=6&m=1047259374&s=612x612&w=0&h=nG_krpdg_SonwCnxIOYShVLEidbLvukG9YrBUsRqVEQ=);
     background-position: right;
-    width: 750px;
-    height: 300px;
+    width: 100%;
+    height: 150px;
     float:right;
     background-repeat: no-repeat;
-    background-size: 900px 300px;
+    background-size: cover;
 }
