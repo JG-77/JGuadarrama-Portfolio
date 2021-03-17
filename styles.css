@@ -68,18 +68,47 @@ img{
 }
 .Projects{
     background-color: var(--gray);
-    padding:10px;
+    padding:50px;
     margin:15px;
 }
 
 .About-Me{
     background-color: var(--gray);
-    padding:10px;
+    padding:50px;
     margin:15px;
 }
 
 .Contact{
     background-color: var(--gray);
-    padding:10px;
+    padding:50px;
     margin:15px;
+}
+
+/*Section images styling*/
+.Projects img{
+    max-height: 200px;
+    display: flex;
+}
+
+.About-Me img{
+    max-height: 200px;
+    display:flex;
+}
+
+.Contact img{
+    max-height: 200px;
+    display: flex;
+}
+
+/*section h2 styling*/
+.Projects h2{
+    text-align: center;
+}
+
+.About-Me h2{
+    text-align: center;
+}
+
+.Contact h2{
+    text-align: center;
 }
