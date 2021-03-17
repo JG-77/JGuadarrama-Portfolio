@@ -1,15 +1,18 @@
+/*Variables*/
 :root{
     --mint: rgb(0, 255, 179);
     --dark: rgb(32, 32, 32);
     --gray: rgb(77, 77, 77);
     --white: #fff;
 }
+
 body{
 background: linear-gradient(180deg, var(--dark), var(--gray));
 background-attachment: fixed;
 font-family: Arial, Helvetica, sans-serif;
 }
 
+/*Header styling*/
 .heading{
 background-color: var(--dark);
 padding: 15px;
@@ -40,6 +43,7 @@ padding: 15px;
     margin-right:20px;
 }
 
+/*Background image styling*/
 .imge{
     background-image: url(https://media.istockphoto.com/photos/programming-source-code-abstract-background-picture-id1047259374?k=6&m=1047259374&s=612x612&w=0&h=nG_krpdg_SonwCnxIOYShVLEidbLvukG9YrBUsRqVEQ=);
     background-position: right;
@@ -50,12 +54,14 @@ padding: 15px;
     background-size: cover;
 }
 
+/*Sidebar image styling*/
 img{
     float: left;
     width:25%;
     height: 100%;
 }
 
+/*Section styling*/
 .all-cards{
     width:75%;
     display: inline-block;
