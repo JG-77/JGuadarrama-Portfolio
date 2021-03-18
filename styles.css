@@ -54,6 +54,9 @@ padding: 15px;
 }
 
 /*Sidebar image styling*/
+.side-panel{
+    float: left;
+}
 .selfie{
     float: left;
     width:25%;
