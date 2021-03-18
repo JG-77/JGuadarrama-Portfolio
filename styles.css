@@ -66,21 +66,7 @@ padding: 15px;
     display: inline-block;
     flex-wrap: wrap;
 }
-.Projects{
-    background-color: var(--gray);
-    padding:10px;
-    margin:30px;
-    border:solid var(--white);
-}
-
-.About-Me{
-    background-color: var(--gray);
-    padding:10px;
-    margin:30px;
-    border:solid var(--white);
-}
-
-.Contact{
+.card{
     background-color: var(--gray);
     padding:10px;
     margin:30px;
@@ -88,23 +74,11 @@ padding: 15px;
 }
 
 /*Section images styling*/
-.Projects img{
+.card img{
     max-height: 200px;
     width:100%;
     display: flex;
     flex-wrap: wrap;
-}
-
-.About-Me img{
-    max-height: 200px;
-    width:100%;
-    display:flex;
-}
-
-.Contact img{
-    max-height: 200px;
-    width:100%;
-    display: flex;
 }
 
 /*section h2 styling*/
