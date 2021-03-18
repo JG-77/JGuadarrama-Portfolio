@@ -70,7 +70,7 @@ padding: 15px;
     background-color: var(--gray);
     padding:10px;
     margin:30px;
-    border:solid var(--white);
+    border:solid var(--mint);
 }
 
 /*Section images styling*/
@@ -82,15 +82,7 @@ padding: 15px;
 }
 
 /*section h2 styling*/
-.Projects h2{
-    text-align: center;
-}
-
-.About-Me h2{
-    text-align: center;
-}
-
-.Contact h2{
+.card h2{
     text-align: center;
 }
 
