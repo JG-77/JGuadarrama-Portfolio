@@ -68,20 +68,20 @@ padding: 15px;
 }
 .Projects{
     background-color: var(--gray);
-    padding:50px;
-    margin:15px;
+    padding:10px;
+    margin:30px;
 }
 
 .About-Me{
     background-color: var(--gray);
-    padding:50px;
-    margin:15px;
+    padding:10px;
+    margin:30px;
 }
 
 .Contact{
     background-color: var(--gray);
-    padding:50px;
-    margin:15px;
+    padding:10px;
+    margin:30px;
 }
 
 /*Section images styling*/
