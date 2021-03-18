@@ -55,7 +55,6 @@ padding: 15px;
 
 /*Sidebar image styling*/
 .side-panel{
-    float: left;
     display: flex;
     padding: 5px;
     margin: 10px;
