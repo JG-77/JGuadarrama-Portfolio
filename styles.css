@@ -85,6 +85,11 @@ padding: 15px;
     border:solid var(--mint);
 }
 
+.card ul{
+    list-style-type: none;
+    display: inline-flex;
+}
+
 /*Section images styling*/
 .card img{
     max-height: 200px;
