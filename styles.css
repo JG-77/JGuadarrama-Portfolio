@@ -24,7 +24,7 @@ padding: 15px;
     padding: 5px 25px 5px 25px;
     margin-left: -25px;
     font-size: 50px;
-    color: var(--white);
+    color: var(--dark);
     display: inline;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -94,6 +94,7 @@ padding: 15px;
     text-align: center;
 }
 
+/*Footer Styling*/
 footer{
     background-color: var(--dark);
     height: 50px;
@@ -101,4 +102,5 @@ footer{
 }
 footer h3 {
     color: var(--white);
+    text-align: center;
 }
