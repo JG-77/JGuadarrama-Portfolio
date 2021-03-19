@@ -60,6 +60,8 @@ padding: 15px;
     margin: 10px;
     border: solid var(--mint);
     background-color: var(--gray);
+    height: 600px;
+    width: 300px;
 }
 
 .side-sect{
