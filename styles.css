@@ -56,26 +56,6 @@ padding: 15px;
     background-size: cover;
 }
 
-/*Sidebar image styling*/
-.side-sect{
-    display: flex;
-    padding: 5px;
-    margin: 10px;
-    border: solid var(--mint);
-    background-color: var(--gray);
-    height: 600px;
-    width: 300px;
-    display: inline-block;
-}
-.side-sect h2{
-    text-align: center;
-}
-
-.selfie{
-    float: left;
-    width:100%;
-    height: 75%;
-}
 
 /*Section styling*/
 .all-cards{
@@ -107,6 +87,11 @@ padding: 15px;
     flex-wrap: wrap;
 }
 
+.selfie{
+    float: left;
+    width:100%;
+    height: 75%;
+}
 /*section h2 styling*/
 .card h2{
     text-align: center;
