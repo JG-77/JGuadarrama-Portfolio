@@ -93,7 +93,7 @@ height: auto;
 .card ul a {
     padding: 40px;
     margin: 0px;
-    color: var(--mint);
+    color: var(--white);
     font-size: 20px;
 }
 
@@ -114,6 +114,11 @@ height: auto;
 /*section h2 styling*/
 .card h2{
     text-align: center;
+    color: var(--mint)
+}
+
+.card p{
+    color: var(--white)
 }
 
 #About-Me{
