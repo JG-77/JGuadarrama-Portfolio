@@ -60,7 +60,7 @@ padding: 15px;
 /*Section styling*/
 .all-cards{
     width:75%;
-    display: inline-block;
+    display: inline-flex;
     flex-wrap: wrap;
 }
 .card{
@@ -87,14 +87,18 @@ padding: 15px;
     flex-wrap: wrap;
 }
 
-.selfie{
+#selfie{
     float: left;
-    width:100%;
-    height: 75%;
+    width: auto;
+    height: auto;
 }
 /*section h2 styling*/
 .card h2{
     text-align: center;
+}
+
+#About-Me{
+    text-align: left;
 }
 
 /*Footer Styling*/
