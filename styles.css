@@ -57,7 +57,7 @@ padding: 15px;
 }
 
 /*Sidebar image styling*/
-.side-panel{
+.side-sect{
     display: flex;
     padding: 5px;
     margin: 10px;
@@ -65,10 +65,10 @@ padding: 15px;
     background-color: var(--gray);
     height: 600px;
     width: 300px;
+    display: inline-block;
 }
-
-.side-sect{
-    float:left;
+.side-sect h2{
+    text-align: center;
 }
 
 .selfie{
