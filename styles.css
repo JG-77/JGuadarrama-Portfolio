@@ -82,7 +82,7 @@ padding: 15px;
 /*Section images styling*/
 .card img{
     max-height: 200px;
-    width:100%;
+    max-width:100%;
     display: flex;
     flex-wrap: wrap;
 }
