@@ -75,6 +75,7 @@ padding: 15px;
 
 .bio{
     text-align: justify;
+    color: var(--white)
 }
 
 #Contact{
@@ -107,7 +108,8 @@ height: auto;
 #selfie{
     float: left;
     width: auto;
-    height: auto;
+    max-height: 300px;
+    margin-right: 10px;
 }
 /*section h2 styling*/
 .card h2{
@@ -116,6 +118,7 @@ height: auto;
 
 #About-Me{
     text-align: center;
+    color: var(--white)
 }
 
 /*Footer Styling*/
