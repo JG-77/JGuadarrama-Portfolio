@@ -42,8 +42,9 @@ padding: 15px;
     display: inline-flex;
 }
 
-.directory ul li{
-    margin-right:20px;
+.directory ul a {
+    color: var(--mint);
+    margin-right: 40px;
 }
 
 /*Background image styling*/
