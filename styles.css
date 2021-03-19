@@ -62,12 +62,18 @@ padding: 15px;
     width:75%;
     display: inline-flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .card{
     background-color: var(--gray);
     padding:10px;
     margin:30px;
     border:solid var(--mint);
+}
+
+#Contact{
+width: 100%;
+height: auto;
 }
 
 .card ul{
