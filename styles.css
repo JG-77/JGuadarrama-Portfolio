@@ -84,6 +84,13 @@ height: auto;
     margin: 5px 10px 5px 10px;
 }
 
+.card ul a {
+    padding: 40px;
+    margin: 0px;
+    color: var(--mint);
+    font-size: 20px;
+}
+
 /*Section images styling*/
 .card img{
     max-height: 200px;
