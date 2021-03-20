@@ -137,11 +137,6 @@ height: auto;
     color: var(--white)
 }
 
-#About-Me{
-    text-align: center;
-    color: var(--white)
-}
-
 /*Footer Styling*/
 footer{
     background-color: var(--dark);
@@ -154,9 +149,9 @@ footer h3 {
     padding:0px;
 }
 
-@media screen and (max-width:950px){
+@media screen and (max-width:1040px){
     .all-cards{
-        width:75%
+        width:100%
     }
     .cards{
         width:100%;
