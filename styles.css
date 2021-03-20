@@ -61,16 +61,15 @@ display: flex;
     background-size: cover;
 }
 
-aside{
-    background-color: var(--dark);
-    border:solid var(--mint);
+aside section{
+    border-right:solid var(--mint);
     margin-top: 30px;
     padding: 50px;
     margin-right: 15px;
     margin-bottom: 30px;
 }
 aside h2{
-    color: var(--mint)
+    color: var(--mint);
 }
 
 /*Section styling*/
@@ -91,6 +90,10 @@ aside h2{
 .bio{
     text-align: justify;
     color: var(--white)
+}
+
+.app1{
+max-height: 400px;
 }
 
 #Contact{
@@ -114,7 +117,7 @@ height: auto;
 }
 
 /*Section images styling*/
-.card img{
+img{
     max-height: 200px;
     max-width:100%;
     display: flex;
