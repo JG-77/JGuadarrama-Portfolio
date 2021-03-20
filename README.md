@@ -1,2 +1,6 @@
 # JGuadarrama-Portfolio
-Personal Professional Portfolio
+* Portfolio link:
+* Repository link:
+![Portfolio Screenshot]
+
+## Description
