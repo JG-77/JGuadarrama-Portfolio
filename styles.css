@@ -68,9 +68,8 @@ aside h2{
     color: var(--mint);
 }
 
-/*Main content sections styling*/
+/*<Main> content sections styling*/
 .all-cards{
-    width:95%;
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: center;
