@@ -1,6 +1,6 @@
 # JGuadarrama-Portfolio
-* Portfolio link:
-* Repository link:
+* Portfolio link:https://jg-77.github.io/JGuadarrama-Portfolio/
+* Repository link:https://github.com/JG-77/JGuadarrama-Portfolio.git 
 ![Portfolio Screenshot]
 
 ## Description
