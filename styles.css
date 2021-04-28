@@ -58,6 +58,9 @@ display: flex;
     background-size: cover;
 }
 /*Sidebar styling*/
+aside {
+    width: 100%;
+}
 #sidebar{
     border-right:solid var(--mint);
     margin-top: 30px;
@@ -100,8 +103,10 @@ aside h2{
 }
 
 /*First application card*/
-.app1{
+.appIMG {
     max-height: 400px;
+    min-width: 75%;
+    margin: auto;
 }
 
 /*Section images styling*/
@@ -115,7 +120,11 @@ img{
 /*section text styling*/
 .card h2{
     text-align: center;
-    color: var(--mint)
+    color: var(--mint);
+}
+
+.card h2 a{
+    color: var(--mint);
 }
 
 .card p{
@@ -166,6 +175,7 @@ footer h3 {
     header{
         width:100%   
     }
+   
     a{
         width:100%;
     }
@@ -175,6 +185,7 @@ footer h3 {
     #sidebar{
         border-bottom: solid var(--mint);
         border-right: none;
+        text-align: center;
     }
     .imge{
         width:100%
@@ -184,7 +195,7 @@ footer h3 {
     }
 }
 
-@media screen and (max-width:480px){
+/*@media screen and (max-width:480px){
     .all-cards{
         width:75%
     }
@@ -203,17 +214,19 @@ footer h3 {
     footer{
         width:100%;
     }
-}
+}*/
 
 @media screen and (min-width:951px){
     header{
         width:100%;
     }
     #sidebar{
-        margin-left:0px;
+        border-bottom: solid var(--mint);
+        border-right: none;
+        text-align: center;
     }
     .all-cards{
-        width: 80%;
-        justify-content: flex-end;
+        width: 100%;
+        justify-content: center;
     }
 }
